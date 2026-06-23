@@ -1,6 +1,6 @@
 # ModLocalizer Pack Template
 
-A template for creating translation packs for [ModLocalizer](https://github.com/ritsuyoshi561-dot/ModLocalizer).
+A template for creating translation packs for [ModLocalizer](https://github.com/Ricky129x/ModLocalizer).
 
 No DLL or code required — just JSON files.
 
@@ -9,7 +9,7 @@ No DLL or code required — just JSON files.
 1. Copy the `MyModJpn` folder and rename it to `YourModJpn` (or any name you like)
 2. Rename `MyModJpn.json` to match your folder name (e.g. `YourModJpn.json`)
 3. Edit the manifest fields: `id`, `name`, `author`, and `dependencies` (add your target mod's id)
-4. Add translation files under `translations/<lang>/`
+4. Add translation files under `translations/<lang>/<mod name>/`
 
 ## File Structure
 
@@ -19,9 +19,10 @@ YourModJpn/
   modlocalizer.pack      ← required marker file (leave empty, do not delete)
   translations/
     jpn/
-      cards.json         ← translation entries for the "cards" table
-      relics.json        ← translation entries for the "relics" table
-      ...                ← any table name the target mod uses
+      YourMod/
+        cards.json       ← translation entries for the "cards" table
+        relics.json      ← translation entries for the "relics" table
+        ...              ← any table name the target mod uses
 ```
 
 ## Translation File Format
