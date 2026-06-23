@@ -1,0 +1,14 @@
+{
+  "id": "MyModJpn",
+  "name": "MyMod Japanese Translation",
+  "author": "YourName",
+  "version": "1.0.0",
+  "has_pck": false,
+  "has_dll": false,
+  "dependencies": [
+    {"id": "BaseLib", "min_version": null},
+    {"id": "MyMod", "min_version": null},
+    {"id": "ModLocalizer", "min_version": null}
+  ],
+  "affects_gameplay": false
+}
